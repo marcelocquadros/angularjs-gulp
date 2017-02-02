@@ -30,7 +30,7 @@ gulp.task('default',['watch'], function() {
   gulp.src('src')
     .pipe(webserver({
       livereload: true,
-      directoryListing: true,
+     // directoryListing: true,
       open: true
     }));
 })
